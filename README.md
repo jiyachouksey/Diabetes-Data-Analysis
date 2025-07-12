@@ -1,79 +1,95 @@
-# 🩺 Diabetes Data Analysis
+🩺 Diabetes Prediction | EDA + Logistic Regression Model
+📌 Project Overview
+This project involves performing Exploratory Data Analysis (EDA) and building a Logistic Regression model to predict whether a patient is diabetic or not based on diagnostic measurements.
 
-This project analyses the **Pima Indians Diabetes dataset** to identify patterns and factors influencing diabetes. It includes **data cleaning, exploratory data analysis (EDA), a basic logistic regression model, and an interactive Power BI dashboard** for visualising key insights.
+🎯 Objective
+Clean the dataset and handle invalid zero values
 
----
+Explore and visualise data distributions and relationships
 
-## 🔍 **Problem Statement**
+Build and evaluate a Logistic Regression classification model
 
-Diabetes is a chronic disease affecting millions worldwide. Early detection and understanding risk factors can help in better management and prevention. The goal of this project is to analyse medical data to identify the features most strongly linked to diabetes.
+💻 Tools & Technologies Used
+Python
 
----
+Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn
 
-## 📂 **Dataset**
+Jupyter Notebook
 
-- **Source:** [Kaggle – Pima Indians Diabetes Database](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
-- **Records:** 768 patients  
-- **Features:** Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, BMI, DiabetesPedigreeFunction, Age, Outcome
+🔍 Dataset Details
+Dataset: Pima Indians Diabetes Dataset
 
----
+Source: UCI Machine Learning Repository (Add dataset link if used from Kaggle or local)
 
-## 🛠️ **Tools Used**
+Rows: 768
 
-- **Python:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
-- **Power BI:** Interactive dashboard and KPIs
+Columns: 9
 
----
+Features: Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, BMI, DiabetesPedigreeFunction, Age
 
-## ✅ **Project Steps**
+Target: Outcome (0 = Non-diabetic, 1 = Diabetic)
 
-1. **Data Cleaning**  
-   - Replaced invalid zero values with median for realistic medical data
+📊 Project Workflow
+Importing Libraries
 
-2. **Exploratory Data Analysis (EDA)**  
-   - Univariate and bivariate analysis  
-   - Correlation heatmap to identify key features
+Loading and Understanding the Data
 
-3. **Model Building**  
-   - Logistic Regression for basic prediction (achieved ~78% accuracy)
+Data Cleaning
 
-4. **Dashboard Development**  
-   - Built an interactive Power BI dashboard showing KPIs, distributions, and relationships
+Replacing invalid zero values with column median
 
----
+Exploratory Data Analysis (EDA)
 
-## 🌟 **Key Insights**
+Distribution plots
 
-- **35%** of patients in the dataset are diabetic
-- **Higher glucose (>130 mg/dL)** and **BMI (>30)** significantly increase diabetes risk
-- Logistic Regression model indicates these features as top predictors
+Correlation heatmap
 
----
+Boxplots of key features vs Outcome
 
-## 📊 **Dashboard Preview**
+Model Building
 
-![Dashboard Screenshot](screenshots/dashboard.png)
+Logistic Regression
 
----
+Train-test split
 
-## 🔮 **Future Improvements**
+Model evaluation using accuracy score and classification report
 
-- Try other ML models (Random Forest, SVM) for higher accuracy
-- Deploy model as an API for real-time prediction
-- Integrate with larger, more diverse healthcare datasets
+🎯 Key Results
+Algorithm used: Logistic Regression
 
----
+Accuracy achieved: (Add your output accuracy here after running)
 
-## 👤 **Author**
+💡 Key Learnings
+✅ Data cleaning and preprocessing
+✅ Visualising medical data effectively
+✅ Building a classification model using scikit-learn
+✅ Interpreting model performance metrics
 
-**Jiya Chouksey | July 2025**
+🚀 Future Scope
+Implement advanced models (Random Forest, XGBoost, SVM) for better accuracy
 
----
+Perform hyperparameter tuning and cross-validation
 
-## 📎 **Links**
+Deploy the model as a web application using Streamlit or Flask
+🙌 Feedback & Suggestions
+I am always looking to improve. Please feel free to share your feedback or suggestions to enhance this project further.
 
-- **Dataset:** [Kaggle Link](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
+📬 Contact
+📧 jiyachouksey225@gmail.com
+💼 https://www.linkedin.com/in/jiya-chouksey-4938a023b/
 
----
+⭐ If you find this project useful, please star this repository.
 
-⭐ **If you found this project helpful, give it a star and follow for more projects!**
+
+
+
+
+
+
+
+
+
+
+
+
+
