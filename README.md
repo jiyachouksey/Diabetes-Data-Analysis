@@ -19,7 +19,7 @@ Jupyter Notebook
 🔍 Dataset Details
 Dataset: Pima Indians Diabetes Dataset
 
-Source: UCI Machine Learning Repository (Add dataset link if used from Kaggle or local)
+Source: UCI Machine Learning Repository (https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
 
 Rows: 768
 
